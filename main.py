@@ -10,8 +10,8 @@ tela_altura = 500
 largura_nave = 60
 altura_nave = 42
 
-som_colisao = pygame.mixer.sound(os.path.join('sons', 'col.mp3'))
-som_disparo = pygame.mixer.sound(os.path.join('sons', 'disparo.mp3'))
+som_colisao = pygame.mixer.Sound(os.path.join('sons', 'col.mp3'))
+som_disparo = pygame.mixer.Sound(os.path.join('sons', 'disparo.mp3'))
 
 fundo = pygame.image.load('imgs/fundodojogo.jpg')
 player1 = pygame.transform.rotate(pygame.transform.scale(pygame.image.load(os.path.join('imgs', 'player1.png')),
