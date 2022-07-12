@@ -51,7 +51,7 @@ def movimentacao_p2(tecla, p2):
         p2.y += -velocidade
 
 
-pygame.display.set_caption(" SPACE WAR ")
+pygame.display.set_caption(" Space Battle ")
 fps = pygame.time.Clock()
 
 jogo_aberto = True
